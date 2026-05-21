@@ -1,75 +1,62 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    border-sizing:border-box;
     box-sizing: border-box;
 }
-h1 {
-    font-size: 24px;
-}
 h1{
-    font-size: 24px;
-    color: rgb(20, 139, 93); 
+    font-size: 50px;
+    color: rgb(0, 0, 0);
 }
 body{
-    background-color:rgb(20, 139, 93) ;
-    font-family: arial, helvetica,sans-serif;
+    background-color: rgb(193, 236, 168);
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
-    align-items:center;
-    height: 100vh;
+    align-items: center;
+    height: 100vh
 }
-. Textlabel{
-    margin:10px;
-    margin-bottom:5px;
-    Font-weight: bold;
-    color:rgb(20, 139, 93);
-}
-.campotexto{
-    padding:12px;
-    border:1px solid rgb(20, 139, 93);
+.campotexto {
+    padding: 12px;
+    border: 1px solid #ccc;
     border-radius: 20px;
     outline: none;
-    transition:0.3s;
+    transition: 0.03s;
 }
 .campotext:focus{
-    border-color:rgb(20, 139, 93);
-    box-shadow: 0 5px 5px rgb(20, 139, 93):
+    border-color:blue;
+    box-shadow: 0,05px #4A90;
 }
-.form{
-    background-color: #7bc787;
+.form {
+    background-color: rgb(149, 204, 149);
     width: 350px;
     padding: 30px;
     border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(10, 80, 21, 0.733);
+    box-shadow: 0 4px 10px #000001;
     display: flex;
     flex-direction: column;
 }
-#tituloform{
-    text-align:center;
+#títuloform{
+    text-align: center;
     margin-bottom: 5px;
     font-weight: bold;
-    color:rgba(12, 49, 32, 0.836);
+    color: #00471e;
 }
-#Bnenviar{
-    margin-top: 20px;
-    padding: 12px;
-    border: none;
-    background-color: rgba(12, 49, 32, 0.836);
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size:16px;
-    transition: 0.3s;
+#bnEnviar{
+margin-top: 20px;
+padding: 12px;
+background-color: rgb(0, 207, 121);
+color: rgb(0, 0, 0);
+border-radius: 8px;
+cursor: pointer;
+font-size: 16px;
+transition: 0.03s;
 }
-#Bnenviar:hover{
-    background-color: rgba(94, 218, 160, 0.836);
+#bnEnviar:hover {
+    background: rgb(174, 233, 172)
 }
-body{
-    margin: 0;  
-    height: 100vh;
-    display: flex;  
-    justify-content: center;    
-    align-items: center;    
-    background: linear-gradient(to bottom, #2bb673, #00d4aa);
+#Data{
+    margin-bottom: 5px;
+    font-weight: bold;
+
 }
